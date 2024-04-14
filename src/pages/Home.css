@@ -1,12 +1,22 @@
 @keyframes myframes {
-  from {
+  0% {
     transform: rotate(0deg);
     background-color: blue;
     margin-left: 0ch;
+     border:5px solid red ;
   }
-  to {
+  50% {
+    transform: rotate(180deg);
+     background-color: red;
+      border:5px solid navy ;
+     margin-left: 50ch;
+     margin-top: 100px;
+  }
+  100% {
     transform: rotate(360deg);
      background-color: red;
-     margin-left: 50ch;
+      border:5px solid navy ;
+     margin-left: 100ch;
+     margin-top: 0px;
   }
 }
