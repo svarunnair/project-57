@@ -1,0 +1,12 @@
+@keyframes myframes {
+  from {
+    transform: rotate(0deg);
+    background-color: blue;
+    margin-left: 0ch;
+  }
+  to {
+    transform: rotate(360deg);
+     background-color: red;
+     margin-left: 50ch;
+  }
+}
