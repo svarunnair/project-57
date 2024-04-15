@@ -4,6 +4,7 @@
     background-color: blue;
     margin-left: 0ch;
      border:5px solid red ;
+   
   }
   50% {
     transform: rotate(180deg);
@@ -11,6 +12,7 @@
       border:5px solid navy ;
      margin-left: 50ch;
      margin-top: 100px;
+     
   }
   100% {
     transform: rotate(360deg);
